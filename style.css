@@ -1,0 +1,77 @@
+body,
+html {
+  font-family: "Nuosu SIL", serif;
+  height: 100%;
+  background-image: url("https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2hhcml0eXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.bodyCont {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+}
+
+.navbar {
+  padding: 10px !important;
+}
+.top-header-agile {
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+}
+.top-header-agile ul li {
+  display: inline;
+  list-style: none;
+  color: #fff;
+}
+#spark-img {
+  height: 40px;
+  width: 40px;
+}
+.nav-item {
+  font-weight: bold;
+  margin-left: 20px;
+  color: white;
+}
+.navbar-collapse {
+  margin-left: 50%;
+}
+.col-md-4,
+.col-md-3,
+.col-md-10 {
+  background-color: #151a24;
+  color: grey;
+  margin: 23px;
+}
+.quote {
+  font-weight: bold;
+  color: #544f4a;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+.col-md-6 {
+  margin-top: 50px;
+}
+.footer {
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+  padding: 15px;
+  position: absolute;
+  bottom: 0;
+}
+.footer-ele {
+  margin: 30px;
+}
+.cont {
+  display: flex;
+  flex-direction: column;
+  height: 520px;
+  justify-content: center;
+}
